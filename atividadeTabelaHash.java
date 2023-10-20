@@ -85,10 +85,10 @@ public class atividadeTabelaHash<C,V> {
 	public static void main (String[] args) {
 		atividadeTabelaHash<String, Integer> tabelaHash = new atividadeTabelaHash<>(1000000);
 		
-		tabelaHash.insereChaveValor("Camila", 1);
+		tabelaHash.insereChaveValor("Ana", 1);
 		tabelaHash.insereChaveValor("Pedro", 2);
 		
-		System.out.println("Ana: " + tabelaHash.get("Camila"));
+		System.out.println("Ana: " + tabelaHash.get("Ana"));
 		System.out.println("Pedro: " + tabelaHash.get("Pedro"));
 
 	}
